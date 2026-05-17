@@ -76,7 +76,7 @@ export default function Testimonials() {
                 hover:border-brand-red hover:bg-brand-red/5
               ">
                 {/* Quote Mark */}
-                <div className="text-6xl text-brand-red/20 font-serif mb-4">"</div>
+                <div className="text-6xl text-brand-red/20 font-serif mb-4">&quot;</div>
 
                 {/* Rating Stars */}
                 <div className="flex gap-1 mb-6">
