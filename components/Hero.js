@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="relative h-screen w-full overflow-hidden grain">
       <div className="absolute inset-0">
         <Image
-          src="/images/a.jpg"
+          src="/images/a.JPG"
           alt="Olympic Gymnastics Arena"
           fill
           sizes="100vw"
@@ -81,7 +81,7 @@ export default function Hero() {
               href="#contact"
               className="bg-brand-red hover:bg-brand-red/90 text-white px-10 py-5 font-display text-xl tracking-wider transition-all hover:scale-105 hover:glow-red"
             >
-              Book Private Session
+              Apply Now
             </a>
             <a
               href="#programs"
