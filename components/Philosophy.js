@@ -78,7 +78,7 @@ export default function Philosophy() {
             className="relative aspect-[4/5] overflow-hidden group"
           >
             <Image
-              src="/images/foto4.JPG"
+              src="/images/foto9.JPG"
               alt="Movement quality"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-110"
