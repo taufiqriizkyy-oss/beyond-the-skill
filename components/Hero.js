@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/bahan_website_foto__9_.JPG"
+          src="/images/hero.jpg"
           alt="Olympic Gymnastics Arena"
           fill
           className="object-cover"
