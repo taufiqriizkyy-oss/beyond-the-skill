@@ -74,27 +74,21 @@ export default function Navigation() {
             </a>
           </motion.div>
 
-          {/* Mobile Burger Button - ENHANCED VISIBILITY */}
+          {/* Mobile Burger Button - SUPER VISIBLE */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden relative z-50 w-12 h-12 flex flex-col items-center justify-center gap-2 bg-brand-red/10 border border-brand-red/30"
+            className="md:hidden relative z-50 flex flex-col justify-center items-center w-14 h-14 bg-transparent border-2 border-brand-red p-2"
             aria-label="Toggle menu"
           >
-            <span
-              className={`block w-7 h-0.5 bg-brand-offwhite transition-all duration-300 ${
-                isMobileMenuOpen ? 'rotate-45 translate-y-2.5' : ''
-              }`}
-            />
-            <span
-              className={`block w-7 h-0.5 bg-brand-offwhite transition-all duration-300 ${
-                isMobileMenuOpen ? 'opacity-0' : 'opacity-100'
-              }`}
-            />
-            <span
-              className={`block w-7 h-0.5 bg-brand-offwhite transition-all duration-300 ${
-                isMobileMenuOpen ? '-rotate-45 -translate-y-2.5' : ''
-              }`}
-            />
+            <div className={`w-8 h-1 bg-white mb-1.5 transition-all duration-300 ${
+              isMobileMenuOpen ? 'rotate-45 translate-y-2.5 bg-brand-red' : ''
+            }`}></div>
+            <div className={`w-8 h-1 bg-white mb-1.5 transition-all duration-300 ${
+              isMobileMenuOpen ? 'opacity-0' : 'opacity-100'
+            }`}></div>
+            <div className={`w-8 h-1 bg-white transition-all duration-300 ${
+              isMobileMenuOpen ? '-rotate-45 -translate-y-2.5 bg-brand-red' : ''
+            }`}></div>
           </button>
         </div>
       </motion.nav>
