@@ -41,7 +41,7 @@ export default function Gallery() {
       label: "In Motion"
     },
     {
-      src: "/images/foto9.JPG",
+      src: "/images/fotofoto.JPG",
       alt: "Technical Execution",
       aspect: "aspect-[4/5]",
       label: "Precision"
