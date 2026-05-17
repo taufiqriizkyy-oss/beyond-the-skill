@@ -52,7 +52,7 @@ export default function Footer() {
             <h4 className="text-sm text-brand-gray tracking-wider uppercase mb-6">Connect</h4>
             <div className="space-y-4">
               <a
-                href="https://instagram.com/rifdairfanaluthfi"
+                href="https://instagram.com/rifda_irfanaluthfi/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-brand-white/80 hover:text-brand-red transition-colors group"
