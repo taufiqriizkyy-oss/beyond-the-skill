@@ -112,7 +112,7 @@ export default function BeyondArtistryPage() {
       <section className="relative py-24 md:py-32 px-6 md:px-12 lg:px-24">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-display text-4xl md:text-5xl text-brand-offwhite mb-16">
-            WHAT YOU'LL ACHIEVE
+            WHAT YOU&apos;LL ACHIEVE
           </h2>
 
           <div className="space-y-8">
