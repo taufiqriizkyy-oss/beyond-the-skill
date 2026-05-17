@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import Link from 'next/link'
 
 export default function Programs() {
   const ref = useRef(null)
@@ -21,7 +22,8 @@ export default function Programs() {
       ],
       theme: "technical",
       accentColor: "text-brand-red",
-      borderColor: "border-brand-red"
+      borderColor: "border-brand-red",
+      link: "/beyond-elements"
     },
     {
       title: "BEYOND ARTISTRY",
@@ -36,7 +38,8 @@ export default function Programs() {
       ],
       theme: "artistic",
       accentColor: "text-brand-gray",
-      borderColor: "border-brand-gray"
+      borderColor: "border-brand-gray",
+      link: "/beyond-artistry"
     }
   ]
 
@@ -122,20 +125,22 @@ export default function Programs() {
                     </div>
                   </div>
 
-                  {/* Learn More */}
-                  <motion.button
-                    whileHover={{ x: 10 }}
-                    className={`
-                      mt-8 flex items-center gap-2 ${program.accentColor}
-                      font-display text-xl tracking-wider
-                      transition-all
-                    `}
-                  >
-                    LEARN MORE
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
-                  </motion.button>
+                  {/* Learn More - NOW WITH WORKING LINK */}
+                  <Link href={program.link}>
+                    <motion.div
+                      whileHover={{ x: 10 }}
+                      className={`
+                        mt-8 flex items-center gap-2 ${program.accentColor}
+                        font-display text-xl tracking-wider
+                        transition-all cursor-pointer
+                      `}
+                    >
+                      LEARN MORE
+                      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
+                    </motion.div>
+                  </Link>
                 </div>
 
                 {/* Hover Glow Effect */}
