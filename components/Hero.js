@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="relative h-screen w-full overflow-hidden grain">
       <div className="absolute inset-0">
         <Image
-          src="/images/hero.jpg"
+          src="/images/a.jpg"
           alt="Olympic Gymnastics Arena"
           fill
           sizes="100vw"

@@ -11,7 +11,7 @@ export default function Gallery() {
 
   const images = [
     {
-      src: "/images/foto3.JPG",
+      src: "/images/a.JPG",
       alt: "Olympic Arena Performance",
       aspect: "aspect-[4/5]",
       label: "Olympic Stage"
