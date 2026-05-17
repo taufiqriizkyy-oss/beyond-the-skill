@@ -18,7 +18,7 @@ export default function Testimonials() {
     {
       name: "Chanda",
       role: "Parent of Elite Athlete",
-      text: "Karena dilatih langsung sama atlet yang baru aja balik perang tips2 yg rifda kasih relate dgn situasi yg sheriba hadapi di lapangan. Dari segi skill drill yg rifda kasih "bekerja" 100% contoh : handstand di beam itu buat sherina sulittt, tapi saat kompetisi rifda pegang sherina utk persiapan, 3detik pun dia bisa handstand di beam. Mungkin komunikasi yang sesuai dengan usia sherina, lalu rifda selalu memberi apresiasi setiap pencapaian yg sherina raih, even itu hal kecil, ini ngaruh buat semangat latihan",
+      text: "Karena dilatih langsung sama atlet yang baru aja balik perang tips2 yg rifda kasih relate dgn situasi yg sheriba hadapi di lapangan. Dari segi skill drill yg rifda kasih bekerja 100% contoh : handstand di beam itu buat sherina sulittt, tapi saat kompetisi rifda pegang sherina utk persiapan, 3detik pun dia bisa handstand di beam. Mungkin komunikasi yang sesuai dengan usia sherina, lalu rifda selalu memberi apresiasi setiap pencapaian yg sherina raih, even itu hal kecil, ini ngaruh buat semangat latihan",
       rating: 5
     },
     {
