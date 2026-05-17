@@ -10,21 +10,21 @@ export default function Testimonials() {
 
   const testimonials = [
     {
-      name: "Sarah Anderson",
+      name: "Zesty",
       role: "Competitive Gymnast",
-      text: "Training with Rifda completely transformed my approach to gymnastics. The precision refinement helped me improve my execution scores significantly. Her Olympic experience brings insights you can't get anywhere else.",
+      text: "Technical Skills detailnya ok banget, demonstrasinya dalam penjelasan gerakan secara visual dan verbal perfect, progress menu latihan juga bertahap ga push keras. Psikology komunikasi positif, membantu atlit mengatasi rasa tkut dan buat nyaman anak, Kedisiplinan dan profesionalisme konsisten tepat waktu, etikanya bagus banget ga susah ditanyain kalau ortu anak2nya ingin ilmu atau informasi, Performa dari shan skillnya ningkat dari coreo, dari teknik baru dan prestasinya juga berasa.",
       rating: 5
     },
     {
-      name: "Michael Chen",
+      name: "Chanda",
       role: "Parent of Elite Athlete",
-      text: "The personalized attention and technical expertise is exceptional. My daughter's confidence and skill quality improved dramatically in just months. Worth every investment for serious gymnasts.",
+      text: "Karena dilatih langsung sama atlet yang baru aja balik perang tips2 yg rifda kasih relate dgn situasi yg sheriba hadapi di lapangan. Dari segi skill drill yg rifda kasih "bekerja" 100% contoh : handstand di beam itu buat sherina sulittt, tapi saat kompetisi rifda pegang sherina utk persiapan, 3detik pun dia bisa handstand di beam. Mungkin komunikasi yang sesuai dengan usia sherina, lalu rifda selalu memberi apresiasi setiap pencapaian yg sherina raih, even itu hal kecil, ini ngaruh buat semangat latihan",
       rating: 5
     },
     {
-      name: "Jessica Martinez",
-      role: "Advanced Level Gymnast",
-      text: "Beyond The Skill isn't just about learning tricks—it's about refining every detail until your movements are Olympic-level. The artistry program helped me connect with my routines on a deeper level.",
+      name: "Veronica",
+      role: "Parent of Elite Athlete",
+      text: "So far eil suka banget dilatih Rifda: right on point kl melatih. Tips2 nya jitu, detail & applicable, bukan hanya teori tp dg pengalaman pribadi. Itu yg terpenting Tips jitu terbukti u double pirouette. Yg ga pernah berhasil, begitu diksh taw Rifda hanya via wa, dy Igs bisa Aspek Psychology Rifda like sister who shares same interest & passion with Eil. Pas bentuk body nya jg mirip2, kecil imoet gitu Nah jd dy jg Ibh nurut & Ibh percaya, Ibh berani sharibg & bertanya. Sy berharap banget Eil msh bs terus dilatih Rifda.",
       rating: 5
     }
   ]

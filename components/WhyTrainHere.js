@@ -58,7 +58,7 @@ export default function WhyTrainHere() {
             className="text-6xl md:text-8xl font-display mb-6"
           >
             WHY TRAIN<br />
-            <span className="text-brand-red">WITH US?</span>
+            <span className="text-brand-red">WITH ME?</span>
           </motion.h2>
 
           <motion.p

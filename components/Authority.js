@@ -10,7 +10,7 @@ export default function Authority() {
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   const stats = [
-    { number: "70+", label: "National Competition Medals" },
+    { number: "70+", label: "National & International Competition Medals" },
     { number: "2024", label: "Paris Olympics Qualifier" },
     { number: "1st", label: "Indonesian Olympic Gymnast" },
   ]
