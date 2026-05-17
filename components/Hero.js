@@ -6,19 +6,19 @@ import Image from 'next/image'
 export default function Hero() {
   return (
     <section className="relative h-screen w-full overflow-hidden grain">
-      {/* Background Image */}
       <div className="absolute inset-0">
         <Image
           src="/images/hero.jpg"
           alt="Olympic Gymnastics Arena"
           fill
+          sizes="100vw"
           className="object-cover"
           priority
+          quality={90}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/90" />
       </div>
 
-      {/* Red Accent Elements */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 0.15, scale: 1 }}
@@ -26,7 +26,6 @@ export default function Hero() {
         className="absolute top-20 right-20 w-96 h-96 bg-brand-red rounded-full blur-[120px]"
       />
 
-      {/* Content */}
       <div className="relative h-full flex flex-col items-center justify-center px-6 max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -34,7 +33,6 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          {/* Label */}
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -44,7 +42,6 @@ export default function Hero() {
             Olympic Refinement System
           </motion.p>
 
-          {/* Main Heading */}
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -54,7 +51,6 @@ export default function Hero() {
             BEYOND<br />THE SKILL
           </motion.h1>
 
-          {/* Subheading */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -64,7 +60,6 @@ export default function Hero() {
             Beyond Skill, Beyond Limits
           </motion.h2>
 
-          {/* Description */}
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -76,7 +71,6 @@ export default function Hero() {
             and advanced athlete development.
           </motion.p>
 
-          {/* Buttons */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -98,7 +92,6 @@ export default function Hero() {
           </motion.div>
         </motion.div>
 
-        {/* Scroll Indicator */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

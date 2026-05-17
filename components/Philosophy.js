@@ -21,7 +21,6 @@ export default function Philosophy() {
   return (
     <section ref={ref} className="relative py-32 px-6 bg-brand-black">
       <div className="max-w-7xl mx-auto">
-        {/* Title Section */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -50,7 +49,6 @@ export default function Philosophy() {
           </motion.p>
         </motion.div>
 
-        {/* Visual Grid */}
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
@@ -95,7 +93,6 @@ export default function Philosophy() {
           </motion.div>
         </div>
 
-        {/* Principles Grid */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
