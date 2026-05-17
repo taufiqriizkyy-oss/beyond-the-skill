@@ -41,23 +41,28 @@ export default function Authority() {
                 src="/images/foto1.JPG"
                 alt="Rifda Irfanaluthfi - Paris Olympics"
                 fill
-                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover object-center"
+                priority
+                quality={90}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
             </div>
             
-            {/* Floating Medal */}
+            {/* Floating Medal - Hidden on mobile, visible on desktop */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="absolute -bottom-10 -right-10 w-64 h-64"
+              className="absolute -bottom-10 -right-10 w-48 h-48 lg:w-64 lg:h-64 hidden md:block"
             >
               <Image
                 src="/images/foto2.JPG"
                 alt="Medal achievements"
                 fill
+                sizes="(max-width: 1024px) 192px, 256px"
                 className="object-cover rounded-lg shadow-2xl"
+                quality={85}
               />
             </motion.div>
           </motion.div>
@@ -97,8 +102,8 @@ export default function Authority() {
               to advanced gymnast development.
             </motion.p>
 
-            {/* Stats Grid */}
-            <div className="grid grid-cols-3 gap-6 mb-12">
+            {/* Stats Grid - Responsive layout */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
               {stats.map((stat, index) => (
                 <motion.div
                   key={index}
@@ -129,8 +134,8 @@ export default function Authority() {
                     transition={{ duration: 0.5, delay: 1 + index * 0.1 }}
                     className="flex items-center gap-3"
                   >
-                    <div className="w-2 h-2 bg-brand-red" />
-                    <span className="text-brand-white/80">{cert}</span>
+                    <div className="w-2 h-2 bg-brand-red flex-shrink-0" />
+                    <span className="text-brand-white/80 text-sm md:text-base">{cert}</span>
                   </motion.div>
                 ))}
               </div>

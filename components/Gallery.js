@@ -41,7 +41,7 @@ export default function Gallery() {
       label: "In Motion"
     },
     {
-      src: "/images/foto5 .JPG",
+      src: "/images/foto5.JPG",
       alt: "Technical Execution",
       aspect: "aspect-[4/5]",
       label: "Precision"
@@ -93,7 +93,9 @@ export default function Gallery() {
                   src={image.src}
                   alt={image.alt}
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  priority={index < 3}
                 />
                 
                 {/* Overlay */}
