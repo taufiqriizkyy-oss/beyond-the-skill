@@ -74,25 +74,25 @@ export default function Navigation() {
             </a>
           </motion.div>
 
-          {/* Mobile Burger Button */}
+          {/* Mobile Burger Button - ENHANCED VISIBILITY */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden relative z-50 w-10 h-10 flex flex-col items-center justify-center gap-1.5"
+            className="md:hidden relative z-50 w-12 h-12 flex flex-col items-center justify-center gap-2 bg-brand-red/10 border border-brand-red/30"
             aria-label="Toggle menu"
           >
             <span
-              className={`w-6 h-0.5 bg-brand-offwhite transition-all duration-300 ${
-                isMobileMenuOpen ? 'rotate-45 translate-y-2' : ''
+              className={`block w-7 h-0.5 bg-brand-offwhite transition-all duration-300 ${
+                isMobileMenuOpen ? 'rotate-45 translate-y-2.5' : ''
               }`}
             />
             <span
-              className={`w-6 h-0.5 bg-brand-offwhite transition-all duration-300 ${
+              className={`block w-7 h-0.5 bg-brand-offwhite transition-all duration-300 ${
                 isMobileMenuOpen ? 'opacity-0' : 'opacity-100'
               }`}
             />
             <span
-              className={`w-6 h-0.5 bg-brand-offwhite transition-all duration-300 ${
-                isMobileMenuOpen ? '-rotate-45 -translate-y-2' : ''
+              className={`block w-7 h-0.5 bg-brand-offwhite transition-all duration-300 ${
+                isMobileMenuOpen ? '-rotate-45 -translate-y-2.5' : ''
               }`}
             />
           </button>
@@ -104,12 +104,12 @@ export default function Navigation() {
         <>
           {/* Backdrop */}
           <div
-            className="fixed inset-0 bg-black/80 backdrop-blur-sm z-40 md:hidden"
+            className="fixed inset-0 bg-black/90 backdrop-blur-sm z-40 md:hidden"
             onClick={() => setIsMobileMenuOpen(false)}
           />
 
           {/* Menu Panel */}
-          <div className="fixed top-0 right-0 bottom-0 w-[80%] max-w-sm bg-brand-black border-l border-brand-red/30 z-40 md:hidden overflow-y-auto">
+          <div className="fixed top-0 right-0 bottom-0 w-[80%] max-w-sm bg-brand-black border-l-2 border-brand-red z-40 md:hidden overflow-y-auto">
             <div className="flex flex-col h-full pt-24 px-8">
               {/* Mobile Nav Links */}
               <div className="flex flex-col gap-8 mb-12">
@@ -118,7 +118,7 @@ export default function Navigation() {
                     key={index}
                     href={link.href}
                     onClick={handleLinkClick}
-                    className="text-brand-offwhite hover:text-brand-red text-2xl font-display tracking-wide transition-colors duration-300"
+                    className="text-brand-offwhite hover:text-brand-red text-3xl font-display tracking-wide transition-colors duration-300"
                   >
                     {link.label}
                   </a>
@@ -129,7 +129,7 @@ export default function Navigation() {
               <a
                 href="#contact"
                 onClick={handleLinkClick}
-                className="w-full px-8 py-4 bg-brand-red text-brand-offwhite text-center font-display text-lg uppercase tracking-widest hover:bg-brand-red/90 transition-all duration-300"
+                className="w-full px-8 py-5 bg-brand-red text-brand-offwhite text-center font-display text-xl uppercase tracking-widest hover:bg-brand-red/90 transition-all duration-300"
               >
                 Apply Now
               </a>
