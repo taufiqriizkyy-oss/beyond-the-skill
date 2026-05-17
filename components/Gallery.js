@@ -11,37 +11,37 @@ export default function Gallery() {
 
   const images = [
     {
-      src: "/images/bahan_website_foto__3_.JPG",
+      src: "/images/foto3.JPG",
       alt: "Olympic Arena Performance",
       aspect: "aspect-[4/5]",
       label: "Olympic Stage"
     },
     {
-      src: "/images/bahan_website_foto__6_.JPG",
+      src: "/images/foto6.JPG",
       alt: "Elite Performance",
       aspect: "aspect-[16/9]",
       label: "Technical Excellence"
     },
     {
-      src: "/images/bahan_website_foto__8_.JPG",
+      src: "/images/foto8.JPG",
       alt: "Portrait",
       aspect: "aspect-[3/4]",
       label: "Athlete Focus"
     },
     {
-      src: "/images/bahan_website_foto__7_.JPG",
+      src: "/images/foto7.JPG",
       alt: "International Competition",
       aspect: "aspect-[4/3]",
       label: "World Stage"
     },
     {
-      src: "/images/bahan_website_foto__5_.JPG",
+      src: "/images/foto5.JPG",
       alt: "Competition Movement",
       aspect: "aspect-[16/9]",
       label: "In Motion"
     },
     {
-      src: "/images/bahan_website_foto__4_.jpg",
+      src: "/images/foto4.JPG",
       alt: "Technical Execution",
       aspect: "aspect-[4/5]",
       label: "Precision"

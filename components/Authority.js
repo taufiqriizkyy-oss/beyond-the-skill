@@ -38,7 +38,7 @@ export default function Authority() {
           >
             <div className="relative aspect-[3/4] overflow-hidden">
               <Image
-                src="/images/bahan_website_foto__1_.JPG"
+                src="/images/foto1.JPG"
                 alt="Rifda Irfanaluthfi - Paris Olympics"
                 fill
                 className="object-cover"
@@ -54,7 +54,7 @@ export default function Authority() {
               className="absolute -bottom-10 -right-10 w-64 h-64"
             >
               <Image
-                src="/images/bahan_website_foto__2_.JPG"
+                src="/images/foto2.JPG"
                 alt="Medal achievements"
                 fill
                 className="object-cover rounded-lg shadow-2xl"

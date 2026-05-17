@@ -59,7 +59,7 @@ export default function Philosophy() {
             className="relative aspect-[4/5] overflow-hidden group"
           >
             <Image
-              src="/images/bahan_website_foto__5_.JPG"
+              src="/images/foto5.JPG"
               alt="Elite execution"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-110"
@@ -78,7 +78,7 @@ export default function Philosophy() {
             className="relative aspect-[4/5] overflow-hidden group"
           >
             <Image
-              src="/images/bahan_website_foto__4_.jpg"
+              src="/images/foto4.JPG"
               alt="Movement quality"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-110"
