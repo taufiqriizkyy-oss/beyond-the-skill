@@ -78,7 +78,7 @@ export default function Philosophy() {
             className="relative aspect-[4/5] overflow-hidden group"
           >
             <Image
-              src="/images/foto5.JPG"
+              src="/images/fotofoto.JPG"
               alt="Movement quality"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
