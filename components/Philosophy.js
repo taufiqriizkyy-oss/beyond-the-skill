@@ -62,7 +62,9 @@ export default function Philosophy() {
               src="/images/foto5.JPG"
               alt="Elite execution"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover transition-transform duration-700 group-hover:scale-110"
+              priority={false}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
             <div className="absolute bottom-8 left-8 right-8">
@@ -81,7 +83,9 @@ export default function Philosophy() {
               src="/images/foto5.JPG"
               alt="Movement quality"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover transition-transform duration-700 group-hover:scale-110"
+              priority={false}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
             <div className="absolute bottom-8 left-8 right-8">
